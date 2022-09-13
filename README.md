@@ -2,8 +2,9 @@
 # This package is used to hanadle permission requests at runtime 
 # Isolate it from the context
 
-#How to use :
+# How to use :
 
+```
 Activity : PermissionManager.from(this, null)    
 Fragment : PermissionManager.from(null, this)
 
@@ -22,3 +23,4 @@ PermissionManager.from(this, null)
             // Not granted
         }
 }
+```
